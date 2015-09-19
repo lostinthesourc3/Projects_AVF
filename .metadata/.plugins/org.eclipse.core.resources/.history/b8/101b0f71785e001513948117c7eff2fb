@@ -1,0 +1,84 @@
+var win = Ti.UI.createWindow({
+	backgroundImage: "wallpaper.png",
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	// exitOnClose: true,
+	// modal: true
+	//layout: "vertical"
+});
+
+var bgView = Ti.UI.createView({
+	height: 300,
+	width: "70%",
+	top: 200,
+	backgroundColor: "#80ffffff",
+	layout: "vertical"
+});
+var locationText = Ti.UI.createLabel ({
+	font: {fontFamily: "Arial", fontSize: 30, fontWeight: "light"},
+	color: "#3d1104",
+	text: " ", 
+	top: 25
+});
+
+var tempText = Ti.UI.createLabel({
+	font: {fontFamily: "Arial", fontSize: 120, fontWeight: "light"},
+	text: " ",
+	top: 10,
+	color: "#3d1104"
+});
+
+var weatherText = Ti.UI.createLabel({
+	font: {fontFamily: "Arial", fontSize: 25, fontWeight: "light"},
+	text: " ",
+	color: "#3d1104"
+});	
+
+var feelText = Ti.UI.createLabel({
+	font: {fontFamily: "Arial", fontSize: 18, fontWeight: "light"},
+	text: " ",
+	color: "#3d1104",
+	left: 15,
+	top: 10
+});
+
+var humidText = Ti.UI.createLabel({
+	font: {fontFamily: "Arial", fontSize: 18, fontWeight: "light"},
+	text: " ",
+	color: "#3d1104",
+	left: 15,
+});
+
+bgView.add(locationText, tempText, weatherText, feelText, humidText);
+
+// var icon
+var geo = require("geo");
+
+var buildUI = function(weatherInfo){
+	locationText.text = weatherInfo.loc;
+	tempText.text = weatherInfo.temp;
+	weatherText.text = weatherInfo.weather;
+	feelText.text = "FEELS LIKE: " + weatherInfo.feelLike;
+	humidText.text = "HUMIDITY: " + weatherInfo.humid; 
+};
+
+exports.buildUI = buildUI;
+
+win.add(bgView);
+win.open();
+
+// var closeButton = Ti.UI.createView({
+	// height: 50,
+	// width: "100%",
+	// bottom: 0,
+	// backgroundColor: "#baedff"
+// });
+// var closeText = Ti.UI.createLabel({
+	// text: "EXIT",
+	// font: {fontFamily: "Roboto", fontWeight: "Bold", fontSize: 20}
+// });
+// closeButton.add(closeText);
+// closeButton.addEventListener("click", function(){
+	// win.close();
+// });
+// 
+

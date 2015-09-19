@@ -1,0 +1,7 @@
+"/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/ApplicationStylesheet.java"
+"/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/Avf_daroshka_01Activity.java"
+"/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/Avf_daroshka_01AppInfo.java"
+"/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/Avf_daroshka_01Application.java"
+"/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/R.java"
+"/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/ti/modules/titanium/ui/R.java"

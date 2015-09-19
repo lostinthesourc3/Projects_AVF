@@ -1,0 +1,11 @@
+var ui = require("ui");
+
+
+
+if(Ti.Network.online){
+	Ti.API.info("online");
+	var geo = require("geo");
+}else{
+	Ti.API.info("no network");
+	
+}

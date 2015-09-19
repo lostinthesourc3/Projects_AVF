@@ -1,0 +1,49 @@
+var getGeo = function(){
+	if (Ti.Geolocation.locationServicesEnabled){
+	    Ti.Geolocation.purpose = "Get Current Location";
+	    Ti.Geolocation.accuracy = Ti.Geolocation.ACCURACY_BEST;
+	    Ti.Geolocation.distanceFilter = 10;
+	    Ti.Geolocation.addEventListener("location", function(e){
+	        if (e.error){
+	            alert("Enable location services" + e.error);
+	        }else{
+	        	Ti.API.info(e.coords);
+	        	var lat = e.coords.latitude;
+				var lng = e.cords.longitude;
+			}	
+};
+	
+// 
+// 
+// 
+// 
+// 
+// var getGeo = function(){
+		// Ti.Geolocation.getCurrentPosition(function(e){
+			// console.log(e);
+			// console.log(JSON.stringify(e.source));
+			// var lat = e.coords.latitude;
+			// var lng = e.cords.longitude;
+			// ui.buildUI(lat, lng);
+		// });	
+// };
+// 
+// exports.getGeo = getGeo;
+// 
+// 
+// if (Ti.Geolocation.locationServicesEnabled) {
+    // Ti.Geolocation.purpose = 'Get Current Location';
+    // Ti.Geolocation.accuracy = Ti.Geolocation.ACCURACY_BEST;
+    // Ti.Geolocation.distanceFilter = 10;
+    // Ti.Geolocation.preferredProvider = Ti.Geolocation.PROVIDER_GPS;
+//  
+    // Ti.Geolocation.addEventListener('location', function(e) {
+        // if (e.error) {
+            // alert('Error:' + e.error);
+        // } else {
+            // Ti.API.info(e.coords);
+        // }
+    // });
+// } else {
+    // alert('Please enable location services');
+// }
