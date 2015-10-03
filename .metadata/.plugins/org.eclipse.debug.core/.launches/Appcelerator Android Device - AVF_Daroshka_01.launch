@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.appcelerator.titanium.mobile.ui.android.installer.launchConfigurationType">
 <stringAttribute key="ATTR_PROJECT_NAME" value="AVF_Daroshka_01"/>
+<stringAttribute key="device-id" value="0413714800313000f39e"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/AVF_Daroshka_01"/>
 </listAttribute>

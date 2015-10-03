@@ -1,5 +1,5 @@
 
-Fri Sep 18 2015 23:51:52 GMT-0400 (EDT)
+Fri Oct 02 2015 22:17:51 GMT-0400 (EDT)
 
 Operating System
   Name                        = Mac OS X
@@ -13,7 +13,7 @@ Node.js
   npm Version                 = 1.4.28
 
 Titanium CLI
-  CLI Version                 = 4.0.1
+  CLI Version                 = 5.0.4
 
 Titanium SDK
   SDK Version                 = 4.1.0.GA
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = android
 
 Command
-  /usr/local/bin/node /Users/school/.appcelerator/install/4.1.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform android --log-level trace --sdk 4.1.0.GA --project-dir /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01 --target emulator --android-sdk /Users/school/Library/android-sdk-macosx --device-id Nexus_5_API_23_x86 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 60834 --plugin-paths /Users/school/.appcelerator/install/4.1.2/package/node_modules --config-file /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/build-1442634708072.json --no-banner
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform android --log-level trace --sdk 4.1.0.GA --project-dir /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01 --target device --android-sdk /Users/school/Library/android-sdk-macosx --device-id 0413714800313000f39e --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 55946 --username yuliyad@fullsail.edu --password tisha871 --plugin-paths /Users/school/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/build-1443838666862.json --no-banner
 
 [DEBUG]  Detecting modules in /Users/school/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/school/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
@@ -29,8 +29,10 @@ Command
 [DEBUG]  Detected android module: facebook 4.0.5 @ /Users/school/Library/Application Support/Titanium/modules/android/facebook/4.0.5
 [DEBUG]  Detected android module: ti.cloudpush 3.3.7 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.7
 [DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
 [DEBUG]  Detected android module: ti.map 2.2.3 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.map/2.2.3
 [DEBUG]  Detected android module: ti.map 2.3.1 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.map/2.3.1
+[DEBUG]  Detected android module: ti.map 2.3.3 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.map/2.3.3
 [DEBUG]  Detected commonjs module: ti.cloud 3.2.7 @ /Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.7
 [DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
 [DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/school/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
@@ -41,14 +43,16 @@ Command
 [DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
 [DEBUG]  Detected iphone module: ti.map 2.2.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.0
 [DEBUG]  Detected iphone module: ti.map 2.3.1 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.3.1
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
 [DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
-[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
-[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=development path=/Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=test
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=test path=/Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
 [DEBUG]  No project level plugins to load
 [DEBUG]  Titanium SDK Android directory: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android
-[INFO]   Deploy type: development
-[INFO]   Building for target: emulator
-[INFO]   Building for emulator: Nexus_5_API_23_x86
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building for device: 0413714800313000f39e
 [INFO]   Targeting Android SDK: 22
 [INFO]   Building for the following architectures: armeabi, armeabi-v7a, x86
 [INFO]   Signing with keystore: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/dev_keystore (tidev)
@@ -56,27 +60,12 @@ Command
 [DEBUG]  Classname: Avf_daroshka_01
 [INFO]   Debugging disabled
 [INFO]   Profiler disabled
-[INFO]   Launching emulator: Nexus_5_API_23_x86
-[TRACE]  Starting emulator: Nexus_5_API_23_x86
-[TRACE]  Checking if emulator Nexus_5_API_23_x86 is running...
-[TRACE]  Detecting if Nexus_5_API_23_x86 exists...
-[TRACE]  Found 2 emulators
-[TRACE]  Emulator exists, detecting all running emulators and connected devices...
-[TRACE]  Detected 0 running emulators and connected devices
-[TRACE]  Emulator not running, detecting running emulators
-[TRACE]  Found 2 emulators
-[TRACE]  Starting the emulator...
-[TRACE]  Scanning ports to find a port for the emulator to listening on
-[TRACE]  Emulator will listen on port 5554
-[INFO]   Running: /Users/school/Library/android-sdk-macosx/tools/emulator "-avd" "Nexus_5_API_23_x86" "-port" "5554" "-no-boot-anim" "-partition-size" "128" "-sdcard" "/Users/school/.android/avd/Nexus_5_API_23_x86.avd/sdcard.img"
-[TRACE]  Emulator is starting, monitoring boot state...
-[TRACE]  Checking the boot state for the next 240000 ms
-[TRACE]  Waiting for emulator to register with ADB
-[TRACE]  Emulator process started
-[TRACE]  offline build file /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/build-9977b3927b669c437244c1891d6cb8f058aa1d7f.json
-[TRACE]  No devices found, continuing to wait
+[INFO]   Forcing rebuild: JavaScript files need to be re-encrypted
+[TRACE]  offline build file /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/build-bf9a2433c60ae1e18e5404d808de5ffe666c7163.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 3267.6 sec ago
+[TRACE]  sending request {"json":{"username":"yuliyad@fullsail.edu","session":"a215c8aeb028b8a10e263c59b5968abd3f47b9de yhTXZmRseNlA9yNnefORA5cRkIcq9M/WFlbLH61utz1lYC+JSDVPAgFgc9i89jXNuVtVUiU8QBdN2naRSLT+XgQaDTRHVexdVrk3hR7638kHuMZpr+08uJW9EVx29sYNajPukiBDay1I/09z6eM7w8s85kobjK1m92xu+MaybIszP9UQOyMDDLo/9KKiFpoOCBOlZwdVQJLH6iPJRSuxKEegp76uqhZuxFV0kvemTT1JjT1HnyXHEwigQpj3KmB8nntIgx/STETUq+/TLnJ4CvwZBcN30/cf0gU/apY1YRelmj5QzwbWe+BJOqTG1Oz0IQwur74Qu0LmG07+rh19Jg/YiZ15J9YwP78Q2/1BBg4tnpxD3cODzlTTjKbZ8REsj4xbiqPZuLIzKTEyMIBnDjNKVwS1Gf/4UD6UyqVmPk1r/2zyEFm1H+jd+bqxYqC4TW4Pc+pCq1bpcpfSR9+r6OtHIS3es4pwMkUvmBvYLWrozSgSqSsl3Eyvyj6TIdSVy9I0pRpL0k8mL4Lkuc+zadChsDNDjrGEyjhTz563beCNlo5/iYetGdoJQNMtCAwYlZCxryvd2235ILmbqjf2Ekiu8VDK9AUmVIMKhbygr8W+ZQcsxxX0twRULv6TgVGZFFqWum/1caYGhlbN7JGSDJWOe3dMMMSn4uMXMo0QYss6XWIHGBpgEhWlGyDwfkS6UMz8cVSVrbH4bkci8mGg5tbee4G9Q1ng/ZS1esRUszcjI2uG1kkyYgf0Pfpx93Lde7Dcpn/kKyTfTVZu3ij/Xa2zmJGgCT3YIzs0lFXUVVY=","ipaddress":"192.168.1.19","fingerprint":"0cda96d61ef9f0c2cad42345eb0d48d7bca49dfe","fingerprint_description":"Mac OSX Serial Number: C02LNF7KFD57","guid":"d91e14af-be48-440d-9333-cc1cff4f7414","appid":"com.avf.daroshka01","name":"AVF_Daroshka_01","org_id":100048595,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.avf.daroshka01</id>\n  <name>AVF_Daroshka_01</name>\n  <version>1.0</version>\n  <publisher>school</publisher>\n  <url>http://</url>\n  <description>undefined</description>\n  <copyright>2015 by school</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>d91e14af-be48-440d-9333-cc1cff4f7414</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules>\n      <module platform=\"commonjs\">ti.cloud</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"android\">true</target>\n      <target device=\"ipad\">true</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">false</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>4.1.0.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">55ece14979b4b6db68a08538</property>\n    <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n    <property name=\"acs-base-url-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n    <property name=\"acs-api-key-development\" type=\"string\">***</property>\n    <property name=\"acs-username-development\" type=\"string\">***</property>\n    <property name=\"acs-password-development\" type=\"string\">***</property>\n    <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n    <property name=\"acs-base-url-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n    <property name=\"acs-api-key-production\" type=\"string\">***</property>\n    <property name=\"acs-username-production\" type=\"string\">***</property>\n    <property name=\"acs-password-production\" type=\"string\">***</property>\n    <property name=\"appc-org-id\" type=\"string\">100048595</property>\n    <property name=\"appc-creator-user-id\" type=\"string\">01eb5aca-9c2f-4719-8b42-f7b5468bc78c</property>\n    <ios>\n      <plist>\n        <dict>\n          <key>NSLocationAlwaysUsageDescription</key>\n          <string>\n                    Current location needed\n                </string>\n        </dict>\n      </plist>\n    </ios>\n  </ti:app>","modules":[{"id":"ti.cloud","platform":["commonjs"],"deployType":["test"],"modulePath":"/Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9","version":"3.2.9","manifest":{"version":"3.2.9","description":"Appcelerator Cloud Services","author":"Dawson Toth, Jeff English, Jon Alter, Paul Lv, Michael Goff, and Pedro Enrique","license":"Appcelerator Commercial License","copyright":"Copyright (c) 2011-2014 by Appcelerator,  Inc.","name":"ti.cloud","moduleid":"ti.cloud","guid":"1056b5d2-2bb5-4339-b930-297637aeec4e","platform":"commonjs","minsdk":"2.1.0"},"native":false,"libFile":"/Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js"}]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"q7C7TctHPkgseZd9/6TTwA==","pepper":"FqKBKMLBQRVtEHkfNCt3gQ==","hmacKey":"rv4pio+9rycE1mvGO9LIZw==","o":100048595,"u":"01eb5aca-9c2f-4719-8b42-f7b5468bc78c","p":"free","i":"560f3ad18cb04a090b72c732","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
 [WARN]   Overwriting file /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/KS_nav_ui.png
 [DEBUG]  Symlinking /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/Resources/KS_nav_ui.png => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/KS_nav_ui.png
 [WARN]   Overwriting file /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/KS_nav_views.png
@@ -100,14 +89,11 @@ Command
 [DEBUG]  Symlinking /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/Resources/android/images/res-notlong-port-mdpi/default.png => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/drawable-notlong-port-mdpi/background.png
 [DEBUG]  Symlinking /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/appicon.png => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/drawable/appicon.png
 [INFO]   Processing JavaScript files
-[WARN]   Overwriting file /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/app.js
-[DEBUG]  Symlinking /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/Resources/app.js => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/app.js
-[WARN]   Overwriting file /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/geo.js
-[DEBUG]  Symlinking /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/Resources/geo.js => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/geo.js
-[WARN]   Overwriting file /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/ui.js
-[DEBUG]  Symlinking /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/Resources/ui.js => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/ui.js
-[WARN]   Overwriting file /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/ti.cloud.js
-[DEBUG]  Symlinking /Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/Resources/ti.cloud.js
+[DEBUG]  Symlinking /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/Resources/app.js => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/assets/app.js
+[DEBUG]  Symlinking /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/Resources/geo.js => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/assets/geo.js
+[DEBUG]  Symlinking /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/Resources/ui.js => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/assets/ui.js
+[DEBUG]  Symlinking /Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/assets/ti.cloud.js
+[INFO]   Encrypting JavaScript files: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/titanium_prep.macos "com.avf.daroshka01" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/assets" "app.js" "geo.js" "ui.js" "ti.cloud.js" "_app_props_.json"
 [DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-v8.jar
 [DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-analytics.jar
 [DEBUG]  Adding dependency library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/aps-analytics.jar
@@ -128,65 +114,37 @@ Command
 [DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-network.jar
 [DEBUG]  Adding dependency library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/thirdparty.jar
 [DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-xml.jar
-[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-utils.jar
-[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.jar
-[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-accelerometer.jar
-[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-contacts.jar
-[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-map.jar
-[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-calendar.jar
-[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-gesture.jar
-[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.jar
-[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-database.jar
 [DEBUG]  Unknown namespace api, skipping
-[DEBUG]  Unknown namespace ui.iphone.statusbar, skipping
-[DEBUG]  Unknown namespace ui.iphone, skipping
+[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.jar
+[DEBUG]  Adding library /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.jar
 [DEBUG]  Unknown namespace app.deploytype, skipping
 [DEBUG]  Unknown namespace ui.ios, skipping
 [INFO]   Writing /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets/app.json
 [INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-analytics.res.zip
-[DEBUG]  Copying /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-tchuu4/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
+[DEBUG]  Copying /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-13kytpt/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-android.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-18pi0ui/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-1hnzod2/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-app.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-1xvqxr1/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-1vhtrfi/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-filesystem.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-ramrw2/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-75s4ig/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-media.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-l37q3f/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-12x7fyu/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-locale.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-gqx3n2/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-ghh0xy/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-network.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-sczniy/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-q1aoi8/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-xml.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-1wel444/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
-[INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-utils.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-yyylf5/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-bmii7l/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-zr79bf/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
-[INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-accelerometer.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-e6otx1/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
-[INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-contacts.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-1ruy3m2/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
-[INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-map.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-tzafc9/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
-[INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-calendar.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-e45lih/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
-[INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-gesture.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-774h2d/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-eux9xq/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-6wsezr/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
-[INFO]   Extracting module resources: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-database.res.zip
-[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-cwudap/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-10c1w1a/res/values/strings.xml => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/.classpath
 [DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/.gitignore
 [DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/.project
 [DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/AndroidManifest.xml
 [DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/default.properties
-[DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/ApplicationStylesheet.java
-[DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/Avf_daroshka_01Activity.java
-[DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/Avf_daroshka_01AppInfo.java
-[DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/Avf_daroshka_01Application.java
-[DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/R.java
 [DEBUG]  Removing old file: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/java-sources.txt
 [DEBUG]  Copying template /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/templates/build/AppInfo.java => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/Avf_daroshka_01AppInfo.java
 [DEBUG]  Copying template /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/templates/build/App.java => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen/com/avf/daroshka01/Avf_daroshka_01Application.java
@@ -199,22 +157,15 @@ Command
 [INFO]   Generating i18n files
 [DEBUG]  Merging en strings => /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/strings.xml
 [INFO]   Generating /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res/values/theme.xml
-[INFO]   Packaging application: /Users/school/Library/android-sdk-macosx/build-tools/23.0.0/aapt "package" "-f" "-m" "-J" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen" "-M" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/AndroidManifest.xml" "-A" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets" "-S" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res" "-I" "/Users/school/Library/android-sdk-macosx/platforms/android-22/android.jar" "-F" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "/var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-15mew4h/res" "-S" "/var/folders/jf/5774189572jc77pjh8658dc80000gn/T/115818-73022-1q4g725/res"
-[INFO]   Building Java source files: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/javac "-J-Xmx256M" "-encoding" "utf8" "-bootclasspath" "/Users/school/Library/android-sdk-macosx/platforms/android-22/android.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-v8.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-analytics.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/aps-analytics.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-android.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/jaxen-1.1.1.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/ti-commons-codec-1.3.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-common.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/titanium.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-app.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-ui.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/nineoldandroids-appc-2.4.0.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-filesystem.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-media.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-appcompat.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v4.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v7-appcompat.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-locale.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-network.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/thirdparty.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-xml.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-utils.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-accelerometer.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-contacts.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-map.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-calendar.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-gesture.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-database.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/lib/titanium-verify.jar:R.class:ApplicationStylesheet.class:Avf_daroshka_01Activity.class:Avf_daroshka_01AppInfo.class:Avf_daroshka_01Application.class" "-d" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/java-sources.txt"
-[INFO]   Running dexer: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/java "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=/Users/school/Library/android-sdk-macosx/platform-tools" "-jar" "/Users/school/Library/android-sdk-macosx/build-tools/23.0.0/lib/dx.jar" "--dex" "--output=/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/classes.dex" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/classes" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/lib/titanium-verify.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-v8.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-analytics.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/aps-analytics.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-android.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/jaxen-1.1.1.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/ti-commons-codec-1.3.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-common.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/titanium.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-app.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-ui.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/nineoldandroids-appc-2.4.0.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-filesystem.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-media.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-appcompat.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v4.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v7-appcompat.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-locale.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-network.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/thirdparty.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-xml.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-utils.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-accelerometer.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-contacts.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-map.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-calendar.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-gesture.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-database.jar"
-[TRACE]  Found 1 devices, checking if any of them are the emulator...
-[TRACE]  Emulator not running yet, continuing to wait
+[INFO]   Packaging application: /Users/school/Library/android-sdk-macosx/build-tools/23.0.0/aapt "package" "-f" "-m" "-J" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/gen" "-M" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/AndroidManifest.xml" "-A" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/assets" "-S" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/res" "-I" "/Users/school/Library/android-sdk-macosx/platforms/android-22/android.jar" "-F" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "/var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-19gsk1u/res" "-S" "/var/folders/jf/5774189572jc77pjh8658dc80000gn/T/11592-13985-1xj2301/res"
+[INFO]   Building Java source files: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/javac "-J-Xmx256M" "-encoding" "utf8" "-bootclasspath" "/Users/school/Library/android-sdk-macosx/platforms/android-22/android.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-v8.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-analytics.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/aps-analytics.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-android.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/jaxen-1.1.1.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/ti-commons-codec-1.3.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-common.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/titanium.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-app.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-ui.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/nineoldandroids-appc-2.4.0.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-filesystem.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-media.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-appcompat.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v4.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v7-appcompat.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-locale.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-network.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/thirdparty.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-xml.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.jar:/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/lib/titanium-verify.jar:R.class:ApplicationStylesheet.class:AssetCryptImpl.class:Avf_daroshka_01Activity.class:Avf_daroshka_01AppInfo.class:Avf_daroshka_01Application.class" "-d" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/java-sources.txt"
+[INFO]   Running dexer: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/java "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=/Users/school/Library/android-sdk-macosx/platform-tools" "-jar" "/Users/school/Library/android-sdk-macosx/build-tools/23.0.0/lib/dx.jar" "--dex" "--output=/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/classes.dex" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/classes" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/lib/titanium-verify.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-v8.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-analytics.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/aps-analytics.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-android.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/jaxen-1.1.1.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/ti-commons-codec-1.3.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-common.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/titanium.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-app.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-ui.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/nineoldandroids-appc-2.4.0.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-filesystem.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-media.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-appcompat.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v4.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v7-appcompat.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-locale.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-network.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/thirdparty.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-xml.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.jar" "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.jar"
 [INFO]   Creating unsigned apk
 [DEBUG]  Processing /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/app.ap_
 [DEBUG]  Deflating AndroidManifest.xml
 [DEBUG]  Adding assets/Resources/KS_nav_ui.png
 [DEBUG]  Adding assets/Resources/KS_nav_views.png
-[DEBUG]  Deflating assets/Resources/_app_props_.json
-[DEBUG]  Deflating assets/Resources/app.js
 [DEBUG]  Adding assets/Resources/appicon.png
-[DEBUG]  Deflating assets/Resources/geo.js
-[DEBUG]  Deflating assets/Resources/ti.cloud.js
-[DEBUG]  Deflating assets/Resources/ui.js
 [DEBUG]  Adding assets/Resources/wallpaper.png
 [DEBUG]  Deflating assets/app.json
 [DEBUG]  Deflating assets/index.json
@@ -560,15 +511,8 @@ Command
 [DEBUG]  Deflating org/apache/HttpComponents-NOTICE.txt
 [DEBUG]  Deflating org/apache/mime4j-NOTICE.txt
 [DEBUG]  Processing /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-xml.jar
-[DEBUG]  Processing /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-utils.jar
 [DEBUG]  Processing /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.jar
-[DEBUG]  Processing /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-accelerometer.jar
-[DEBUG]  Processing /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-contacts.jar
-[DEBUG]  Processing /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-map.jar
-[DEBUG]  Processing /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-calendar.jar
-[DEBUG]  Processing /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-gesture.jar
 [DEBUG]  Processing /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.jar
-[DEBUG]  Processing /Users/school/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-database.jar
 [DEBUG]  Adding classes.dex
 [INFO]   Processing /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/src
 [DEBUG]  Adding lib/armeabi/libkroll-v8.so
@@ -586,20 +530,13 @@ Command
 [INFO]   Aligning zip file: /Users/school/Library/android-sdk-macosx/build-tools/23.0.0/zipalign "-v" "4" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/AVF_Daroshka_01.apk" "/Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/AVF_Daroshka_01.apkz"
 [INFO]   Writing build manifest: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/build-manifest.json
 [INFO]   Making sure the adb server is running
-[INFO]   Waiting for emulator to become ready...
-[TRACE]  Found 1 devices, checking if any of them are the emulator...
-[TRACE]  Emulator is running!
-[TRACE]  Checking if boot animation has finished...
-[TRACE]  Emulator is booted, emitting booted event
-[INFO]   Emulator is booted
-[INFO]   SD card not required, skipping mount check
-[INFO]   Emulator ready!
 [INFO]   Installing apk: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/AVF_Daroshka_01.apk
+[INFO]   Installing app on device: SHIELD Tablet
 [TRACE]  Checking if package manager service is started
 [TRACE]  Package manager has started
-[TRACE]  Executing: /Users/school/Library/android-sdk-macosx/platform-tools/adb -s emulator-5554 install -r /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/AVF_Daroshka_01.apk
+[TRACE]  Executing: /Users/school/Library/android-sdk-macosx/platform-tools/adb -s 0413714800313000f39e install -r /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/android/bin/AVF_Daroshka_01.apk
 [INFO]   App successfully installed
 [INFO]   Starting app: com.avf.daroshka01/.Avf_daroshka_01Activity
 [DEBUG]  Trying to start the app...
-[INFO]   Application pid: 2174
-[INFO]   Project built successfully in 50s 831ms
+[INFO]   Application pid: 7658
+[INFO]   Project built successfully in 1m 13s 848ms
