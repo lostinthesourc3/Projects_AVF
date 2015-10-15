@@ -1,0 +1,36 @@
+
+var getGeo = require("geo");
+var url = "http://api.wunderground.com/api/d1e578e5aa05dc1d/conditions/q/"+ getGeo.loc +".json";
+if (Ti.Network.online) {
+     var getData = Ti.Network.createHTTPClient();
+     getData.onload = function(e){
+          console.log(e);  //this is the raw data-string returned from the URL request
+          var weatherArray = JSON.parse(this.responseText);  //convert the string to JS object notation
+          var weatherInfo = {
+          	  loc: weatherArray.current_observation.display_location.full,
+          	  temp: weatherArray.current_observation.temp_f + "ºF",
+          	  feelLike: weatherArray.current_observation.feelslike_f ,
+          	  weather: weatherArray.current_observation.weather,
+          	  humid: weatherArray.current_observation.relative_humidity,
+          	  // wind: weatherArray.current_observation.wind_string,
+          	  // visib: weatherArray.current_observation.visibility_mi,
+          	  // heat: weatherArray.current_observation.heat_index_f,
+          	  // pressure: weatherArray.current_observation.pressure_in,
+          	  // sRad: weatherArray.current_observation.solarradiation,
+          };		
+          
+          // var db
+          // db.save
+          		          
+          var ui = require("ui");
+		  //console.log(weatherInfo);	
+          ui.buildUI(weatherInfo);
+     }; 
+     getData.open("GET", url);
+     getData.send();
+}else{
+     alert("Network currently unavailable.");
+     timeout: 5000;
+}; 
+
+exports.getData = getData;

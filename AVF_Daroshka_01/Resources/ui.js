@@ -1,13 +1,9 @@
 var win = Ti.UI.createWindow({
 	backgroundImage: "wallpaper.png",
 	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
-	// exitOnClose: true,
-	// modal: true
-	// layout: "vertical"
+
 });
 
-
-//current conditions information
 var bgView = Ti.UI.createView({
 	height: 305,
 	width: "70%",
@@ -52,10 +48,6 @@ var humidText = Ti.UI.createLabel({
 
 bgView.add(locationText, tempText, weatherText, feelText, humidText);
 
-var geo = require("geo");
-
-
-//populate current conditions
 var buildUI = function(weatherInfo){
 	locationText.text = weatherInfo.loc;
 	tempText.text = weatherInfo.temp;

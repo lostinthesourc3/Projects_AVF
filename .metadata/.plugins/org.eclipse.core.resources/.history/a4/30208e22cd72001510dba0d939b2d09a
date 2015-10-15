@@ -1,0 +1,41 @@
+
+var getGeo = function(){
+	if(Ti.Platform.osname === "android"){
+		var lat = 37.78583526611328;
+		var lng = -122.4064178466797;
+		var loc = lat + "," + lng;
+		exports.loc = loc;
+		var api = require("api");
+		api.getData(lat, lng);
+		
+	}else{ 
+		if(Ti.Geolocation.locationServicesEnabled){
+			Ti.Geolocation.purpose = "Get current location";
+			Ti.Geolocation.accuracy = Ti.Geolocation.ACCURACY_BEST;
+			Ti.Geolocation.distaceFilter = 10;
+			Titanium.Geolocation.getCurrentPosition(function(e){
+				if(e.error){
+					alert("Enable location services" + e.error);
+				}else{
+					Ti.API.info(e.coords);
+					console.log(e.coords);
+					var lat = e.coords.latitude;
+					var lng = e.coords.longitude;
+					var loc = lat + "," + lng;
+					exports.loc = loc;
+					var api = require("api");
+					api.getData(lat, lng);
+				}
+			});
+		}	
+	};
+}; 
+exports.getGeo = getGeo;
+
+
+
+
+
+
+
+

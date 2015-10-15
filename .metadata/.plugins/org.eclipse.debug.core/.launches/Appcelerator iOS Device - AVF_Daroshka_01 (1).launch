@@ -8,6 +8,7 @@
 <stringAttribute key="certificate" value="Jennifer McCarrick (5TMP78RMGA)"/>
 <stringAttribute key="debug_config" value="::1443836006642:192.168.1.19"/>
 <stringAttribute key="debug_hosts" value="192.168.1.19"/>
+<stringAttribute key="device_id" value="8289fdbcf2a1c81ec80d973ae5d46d56ef3876fc"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/AVF_Daroshka_01"/>
 </listAttribute>
@@ -17,6 +18,6 @@
 <booleanAttribute key="org.eclipse.debug.core.capture_output" value="true"/>
 <booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
 <stringAttribute key="process_factory_id" value="com.appcelerator.titanium.ui.logLevelFilteringProcessFactory"/>
-<stringAttribute key="sdk_version" value="8.4"/>
+<stringAttribute key="sdk_version" value="9.0"/>
 <stringAttribute key="uuid" value="cc03c378-3f35-4670-8261-72b5dce48222"/>
 </launchConfiguration>

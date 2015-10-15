@@ -9,7 +9,4 @@ if(Ti.Network.online){
 }
 
 
-// var geo = require("geo");
-// geo.getGeo();
-
 
