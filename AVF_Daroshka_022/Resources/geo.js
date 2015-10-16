@@ -1,4 +1,3 @@
-
 var getGeo = function(){
 	if(Ti.Platform.osname === "android"){
 		var lat = 40.88010787963867;
@@ -27,6 +26,7 @@ var getGeo = function(){
 		});
 	};
 }; 
+
 exports.getGeo = getGeo;
 
 

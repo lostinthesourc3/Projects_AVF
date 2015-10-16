@@ -31,7 +31,7 @@ var getData = function(){
 	          
 	          var db = require("db"); 
 	          db.save(weatherInfo);
-			  //console.log(weatherInfo);	//>>>> GIVES GOOD INFO
+			  console.log(weatherInfo);
 	     }; 
 	     data.open("GET", url);
 	     data.send();

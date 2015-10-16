@@ -1,11 +1,19 @@
 var win = Ti.UI.createWindow({
 	backgroundColor: "#360041",
 	// backgroundImage: "wallpaper.png",
-	// statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
 	// backgroundGradient: {type: "linear", startPoint: {x: "50%", y: "0%"}, endPoint: {x: "50%", y: "100%"}, 
 						// colors: [{color: "#4d005d", offset: 0.0}, {color: "#000000", offset: 1.0}], }
 	layout: "vertical"
 });
+
+var hello = Ti.UI.createLabel({
+	top: 40, 
+	text: "HELLO",
+	font: {fontFamily: "AvenirNext-UltraLight", fontSize: 30},
+	color: "#fff"
+});
+
 
 var locationText = Ti.UI.createLabel({
 	top: 40, 
@@ -65,10 +73,23 @@ var buildUI = function(weatherInfo){
 	humidText.text = "HUMIDITY: " + weatherInfo.humid;
 	hightText = "HIGH:" + weatherInfo.high + "Fº";
 	lowText = "LOW:" + weatherInfo.low + "Fº"; 
+	day1 = weatherInfo.day1;
+	day2 = weatherInfo.day2;
+	day3 = weatherInfo.day3;
+	icon1 = weatherInfo.icon1;
+	icon2 = weatherInfo.icon2;
+	icon3 = weatherInfo.icon3;
+	high1 = weatherInfo.high1 + "Fº";
+	high2 = weatherInfo.high2 + "Fº";
+	high3 = weatherInfo.high3 + "Fº";
+	low1 = weatherInfo.low1 + "Fº";
+	low2 = weatherInfo.low2 + "Fº";
+	low3 = weatherInfo.low3 + "Fº";
 };
 
 exports.buildUI = buildUI;
 
+win.add(hello);
 win.add(locationText);
 win.add(tempText);
 win.add(weatherText);
@@ -76,6 +97,7 @@ win.add(feelText);
 win.add(humidText);
 win.add(highText);
 win.add(lowText);
+
 //win.add(bgView, detailView);
 win.open();
 
