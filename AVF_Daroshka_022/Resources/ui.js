@@ -40,37 +40,44 @@ bgView.add(locationText, tempText, weatherText);
 
 var detailView = Ti.UI.createView({
 	top: 5,
-	width: "70%",
-	height: 80,
+	width: 200,
+	height: 400,
 	backgroundColor: "#0DFFFFFF",
-	layout: "vertical"
+	//layout: "vertical"
 });
 
 var feelText = Ti.UI.createLabel({
 	font: {fontFamily: "Avenir-LightOblique", fontSize: 15},
 	text: " ",
 	color: "#fff",
+	top: 1
 });
 
 var humidText = Ti.UI.createLabel({
 	font: {fontFamily: "Avenir-LightOblique", fontSize: 15},
 	text: " ",
 	color: "#fff",
+	top: 20
 });
 
 var highText = Ti.UI.createLabel({
 	font: {fontFamily: "Avenir-LightOblique", fontSize: 15},
 	text: " ",
 	color: "#fff",
+	top: 40
 });	
 
 var lowText = Ti.UI.createLabel({
 	font: {fontFamily: "Avenir-LightOblique", fontSize: 15},
 	text: " ",
 	color: "#fff",
+	top: 60
 });	
 
-detailView.add(feelText, humidText, highText, lowText);
+detailView.add(feelText);
+detailView.add(humidText);
+detailView.add(highText);
+detailView.add(lowText);
 
 var days = Ti.UI.createView({
 	height: 300, 
