@@ -6,10 +6,10 @@ if(Ti.Network.online){
 	geo.getGeo();
 }else{
 	Ti.API.info("Network not found");
+	var db = require("db");
+	db.read();
 }
 
 
-// var geo = require("geo");
-// geo.getGeo();
 
 
