@@ -1,5 +1,5 @@
 
-Fri Oct 16 2015 16:15:21 GMT-0400 (EDT)
+Fri Oct 16 2015 23:21:28 GMT-0400 (EDT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/school/.appcelerator/install/5.0.3/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.1.GA --project-dir /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01 --target simulator --ios-version 9.0 --device-family universal --deploy-type development --sim-type ipad --sim-version 9.0 --device-id 1BDBB2D6-E8B3-4C88-ADA0-74EB13B01421 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 55398 --plugin-paths /Users/school/.appcelerator/install/5.0.3/package/node_modules --config-file /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/build-1445026517772.json --no-banner
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.0.3/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.1.GA --project-dir /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01 --target simulator --ios-version 9.0 --device-family universal --deploy-type development --sim-type ipad --sim-version 9.0 --device-id 1BDBB2D6-E8B3-4C88-ADA0-74EB13B01421 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 55398 --plugin-paths /Users/school/.appcelerator/install/5.0.3/package/node_modules --config-file /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/build-1445052085365.json --no-banner
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 1BDBB2D6-E8B3-4C88-ADA0-74EB13B01421
 [TRACE]  [ioslib] Found iOS Simulator UDID 1BDBB2D6-E8B3-4C88-ADA0-74EB13B01421
@@ -76,9 +76,9 @@ Command
 [INFO]   Forcing clean build: /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/iphone/build-manifest.json does not exist
 [INFO]   Initializing the build directory
 [DEBUG]  Creating /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/iphone
-[TRACE]  offline build file /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/build-baa527766b542dde34c76beb244c90cc47b8c103.json
+[TRACE]  offline build file /var/folders/jf/5774189572jc77pjh8658dc80000gn/T/build-b608fd5a5d9be6aa7af6c83814687404da6af541.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 8105.238 sec ago
+[TRACE]  optimizing build, last build was 2429.696 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -695,22 +695,22 @@ Command
 [TRACE]  Check dependencies
 [TRACE]  Create product structure
 [TRACE]  /bin/mkdir -p /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/iphone/build/Release-iphoneos/AVF_Daroshka_01.app
-[TRACE]  Clean.Remove clean /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-dwctfqtzirxjnsgkipbbvctyhdqo/AVF_Daroshka_01_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-dwctfqtzirxjnsgkipbbvctyhdqo/AVF_Daroshka_01_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-fyddiiibcsxmiodzezttnaozxogr/AVF_Daroshka_01_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-fyddiiibcsxmiodzezttnaozxogr/AVF_Daroshka_01_Prefix.pch.pch
 [TRACE]  Clean.Remove clean /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-exptgotsggpucnbraslryfrclkfp/AVF_Daroshka_01_Prefix.pch.pch
 [TRACE]  builtin-rm -rf /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-exptgotsggpucnbraslryfrclkfp/AVF_Daroshka_01_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-egodnwgvhrpuwybdvgvgumjswqvw/AVF_Daroshka_01_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-egodnwgvhrpuwybdvgvgumjswqvw/AVF_Daroshka_01_Prefix.pch.pch
 [TRACE]  Clean.Remove clean /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-afpnnbpnvpkeuienshuntdwwhntp/AVF_Daroshka_01_Prefix.pch.pch
 [TRACE]  builtin-rm -rf /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-afpnnbpnvpkeuienshuntdwwhntp/AVF_Daroshka_01_Prefix.pch.pch
+[TRACE]  Clean.Remove clean /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-egodnwgvhrpuwybdvgvgumjswqvw/AVF_Daroshka_01_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-egodnwgvhrpuwybdvgvgumjswqvw/AVF_Daroshka_01_Prefix.pch.pch
+[TRACE]  Clean.Remove clean /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-fyddiiibcsxmiodzezttnaozxogr/AVF_Daroshka_01_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-fyddiiibcsxmiodzezttnaozxogr/AVF_Daroshka_01_Prefix.pch.pch
+[TRACE]  Clean.Remove clean /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-dwctfqtzirxjnsgkipbbvctyhdqo/AVF_Daroshka_01_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-dwctfqtzirxjnsgkipbbvctyhdqo/AVF_Daroshka_01_Prefix.pch.pch
 [TRACE]  Clean.Remove clean build/Release-iphoneos/AVF_Daroshka_01.app
 [TRACE]  builtin-rm -rf /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/iphone/build/Release-iphoneos/AVF_Daroshka_01.app
-[TRACE]  Clean.Remove clean /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-fcwkumjlnpwoaydnzjylgijjzexr/AVF_Daroshka_01_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-fcwkumjlnpwoaydnzjylgijjzexr/AVF_Daroshka_01_Prefix.pch.pch
 [TRACE]  Clean.Remove clean build/Release-iphoneos/AVF_Daroshka_01.app.dSYM
 [TRACE]  builtin-rm -rf /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/iphone/build/Release-iphoneos/AVF_Daroshka_01.app.dSYM
+[TRACE]  Clean.Remove clean /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-fcwkumjlnpwoaydnzjylgijjzexr/AVF_Daroshka_01_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/jf/5774189572jc77pjh8658dc80000gn/C/com.apple.DeveloperTools/7.0.1-7A1001/Xcode/SharedPrecompiledHeaders/AVF_Daroshka_01_Prefix-fcwkumjlnpwoaydnzjylgijjzexr/AVF_Daroshka_01_Prefix.pch.pch
 [TRACE]  Clean.Remove clean build/AVF_Daroshka_01.build/Release-iphoneos/AVF_Daroshka_01.build
 [TRACE]  builtin-rm -rf /Users/school/Documents/School/AVF/Projects_AVF/AVF_Daroshka_01/build/iphone/build/AVF_Daroshka_01.build/Release-iphoneos/AVF_Daroshka_01.build
 [TRACE]  ** CLEAN SUCCEEDED **

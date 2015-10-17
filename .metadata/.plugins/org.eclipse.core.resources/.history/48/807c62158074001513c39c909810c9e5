@@ -1,0 +1,85 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#360041",
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	layout: "vertical"
+});
+
+
+var locationText = Ti.UI.createLabel({
+	top: 40, 
+	text: " ",
+	font: {fontFamily: "AvenirNext-UltraLight", fontSize: 30},
+	color: "#fff"
+});
+
+var tempText = Ti.UI.createLabel({
+	top: 40, 
+	text: " ",
+	font: {fontFamily: "AvenirNext-UltraLight", fontSize: 30},
+	color: "#fff"
+});
+
+var weatherText = Ti.UI.createLabel({
+	top: 40, 
+	text: " ",
+	font: {fontFamily: "AvenirNext-UltraLight", fontSize: 30},
+	color: "#fff"
+});
+
+var feelText = Ti.UI.createLabel({
+	top: 40, 
+	text: " ",
+	font: {fontFamily: "AvenirNext-UltraLight", fontSize: 30},
+	color: "#fff"
+});
+
+var humidText = Ti.UI.createLabel({
+	top: 40, 
+	text: " ",
+	font: {fontFamily: "AvenirNext-UltraLight", fontSize: 30},
+	color: "#fff"
+});
+
+var highText = Ti.UI.createLabel({
+	top: 40, 
+	text: " ",
+	font: {fontFamily: "AvenirNext-UltraLight", fontSize: 30},
+	color: "#fff"
+});
+
+var lowText = Ti.UI.createLabel({
+	top: 40, 
+	text: " ",
+	font: {fontFamily: "AvenirNext-UltraLight", fontSize: 30},
+	color: "#fff"
+});
+
+var tempCText = Ti.UI.createLabel({
+	top: 40, 
+	text: " ",
+	font: {fontFamily: "AvenirNext-UltraLight", fontSize: 30},
+	color: "#fff"
+});
+
+//populate UI
+var buildUI = function(weatherInfo){
+	locationText.text = weatherInfo.location;
+	tempText.text = weatherInfo.temp + "ºF";
+	weatherText.text = weatherInfo.weather;
+	feelText.text = "FEELS LIKE: " + weatherInfo.feelLike + "ºF";
+	humidText.text = "HUMIDITY: " + weatherInfo.humid;
+	hightText = "HIGH:" + weatherInfo.high + "Fº";
+	lowText = "LOW:" + weatherInfo.low + "Fº"; 
+	tempCText.text = weatherInfo.tempC + "ºC";
+};	
+
+exports.buildUI = buildUI;
+
+win.add(locationText);
+win.add(tempText);
+win.add(weatherText);
+win.add(feelText);
+win.add(humidText);
+win.add(tempCText);
+
+win.open();
