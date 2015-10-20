@@ -1,0 +1,39 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff",
+	layout: "vertical"
+});
+
+var btn1 = Ti.UI.createView({
+	top: 200,
+	width: "100%",
+	height: 50,
+	backgroundColor: "#9f9f9f"
+});
+
+var btn1txt = Ti.UI.createLabel({
+	text: "Movie Reviews",
+	left: 10,
+	color: "#fff",
+	font: {fontSize: 35}
+});
+btn1.add(btn1txt);
+
+var btn2 = Ti.UI.createView({
+	top: 10,
+	width: "100%",
+	height: 50,
+	backgroundColor: "#9f9f9f"
+});
+var btn3 = Ti.UI.createView({
+	top: 10,
+	width: "100%",
+	height: 50,
+	backgroundColor: "#9f9f9f"
+});
+
+
+win.add(btn1);
+win.add(btn2);
+win.add(btn3);
+
+win.open(); 

@@ -1,0 +1,52 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff",
+	layout: "vertical"
+});
+
+var btn1 = Ti.UI.createView({
+	top: 200,
+	width: "100%",
+	height: 50,
+	backgroundColor: "#9f9f9f"
+});
+
+var btn1txt = Ti.UI.ceateLabel({
+	text: "Movie Reviews",
+	color: "#000",
+	font: {fontSize: 40}
+});
+btn1.add(btn1txt);
+
+var btn2 = Ti.UI.createView({
+	top: 10,
+	width: "100%",
+	height: 50,
+	backgroundColor: "#9f9f9f"
+});
+
+var btn2txt = Ti.UI.ceateLabel({
+	text: "Movie Theaters",
+	color: "#000",
+	font: {fontSize: 40}
+});
+btn2.add(btn2txt);
+
+var btn3 = Ti.UI.createView({
+	top: 10,
+	width: "100%",
+	height: 50,
+	backgroundColor: "#9f9f9f"
+});
+
+var btn3txt = Ti.UI.ceateLabel({
+	text: "Make Memories",
+	color: "#000",
+	font: {fontSize: 40}
+});
+btn3.add(btn3txt);
+
+win.add(btn1);
+win.add(btn2);
+win.add(btn3);
+
+win.open(); 

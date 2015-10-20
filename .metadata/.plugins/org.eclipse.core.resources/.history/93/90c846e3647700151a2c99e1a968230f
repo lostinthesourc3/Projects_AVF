@@ -1,0 +1,22 @@
+var reviewsPage = function(){
+	var reviewWin = Ti.UI.createWindow({
+		bacgroundColor: "#fff",
+		title: "Movie Reviews"
+	});
+	
+	var backBtn = Ti.UI.createView({
+		height: 30,
+		botom: 0, 
+		backgroundColor: "#9f9f9f"
+	});
+	var backTxt = Ti.UI.createLabel({
+		text: "Back",
+		color: "#fff"
+	});
+	backBtn.add(backTxt);
+	backBtn.addEventListener("click", function(){
+		reviewWin.close();
+	});
+};
+
+exports.functions = functions;
