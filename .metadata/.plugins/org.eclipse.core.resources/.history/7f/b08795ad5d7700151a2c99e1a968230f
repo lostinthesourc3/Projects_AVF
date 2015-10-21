@@ -1,7 +1,0 @@
-var win = Ti.UI.createWindow({
-	backgroundColor: "#fff"
-});
-
-
-
-win.open(); 

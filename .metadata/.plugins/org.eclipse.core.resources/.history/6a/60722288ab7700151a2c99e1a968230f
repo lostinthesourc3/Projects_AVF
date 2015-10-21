@@ -1,0 +1,43 @@
+var getData = function(){
+
+	var getGeo = require("geo");
+	var url = "https://api.foursquare.com/v2/venues/search?query=movie,theater&limit=10&ll="+ getGeo.loc +"&oauth_token=JQIRJBG4OGIU45V4XUJGKYCBJDPWU4DAVV3JSIFUXL4DBY5I&v=20151019";
+	if (Ti.Network.online) {
+	     var data = Ti.Network.createHTTPClient();
+	     data.onload = function(e){
+	          console.log(e);  
+	          var json = JSON.parse(this.responseText);  
+	   
+	          var array = [];
+	          
+	          for(i=0, j=json.response.venues.length; i<j; i++){
+		          	var info = {
+			          	  name: json.response.venues[i].name,
+			          	  phone: json.response.venues[i].contact.formattedPhone,
+			          	  street: json.response,venues[i].location.address,
+			          	  city: json.response,venues[i].location.city,
+			          	  state: json.response,venues[i].location.state,
+			          	  zip: json.response,venues[i].location.postalCode,
+			          	  crossStreet: json.response.venues[i].location.crossStreet
+		          	};
+		          	array.push(info);
+		          	//console.log(info);
+	          }
+	          		
+	          
+	          var db = require("db"); 
+	          db.save(info); 
+	          // var cloud = require("cloud");
+	          // cloud.save(array);
+			  
+	     }; 
+	     data.open("GET", url);
+	     data.send();
+	}else{
+	     alert("Network currently unavailable.");
+	     timeout: 5000;
+	}; 
+};
+
+
+exports.getData = getData;
