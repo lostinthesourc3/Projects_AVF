@@ -16,7 +16,7 @@ var read = function(){
 
 	dbResult.close();
 	db.close();
-	moviesPage.updateUI(savedData);
+	ui.bUI(savedData);
 };
 
 var save = function(savedData){
