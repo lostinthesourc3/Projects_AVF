@@ -17,8 +17,8 @@ var read = function(){
 
 	dbResult.close();
 	db.close();
-	var ui = require("ui");
-	ui.buildUI(info);
+	// var ui = require("ui");
+	// ui.buildUI(info);
 };
 
 var save = function(savedData){

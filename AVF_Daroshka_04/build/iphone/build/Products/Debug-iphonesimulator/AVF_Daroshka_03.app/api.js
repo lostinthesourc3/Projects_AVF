@@ -24,8 +24,8 @@ var getData = function(){
 	          
 	          var db = require("db"); 
 	          db.save(info); 
-	          // var ui = require("ui");
-			  // ui.buildUI(array);
+	          var ui = require("ui");
+			  ui.buildUI(array);
 	          var cloud = require("cloud");
 	          cloud.login(array);
 			  
