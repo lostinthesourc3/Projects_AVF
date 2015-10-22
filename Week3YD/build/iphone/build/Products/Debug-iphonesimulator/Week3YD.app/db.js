@@ -25,7 +25,7 @@ var save = function(savedData){
 	var db = Ti.Database.open("stockDB");
 	db.execute("CREATE TABLE IF NOT EXISTS stockTBL (id INTEGER PRIMARY KEY, username TEXT, image TEXT, text TEXT)");
 	db.execute("DELETE FROM stockTBL");
-	for(i in savedData){
+	for(i=0, j=savedData.length; i<j; i++){
 		db.execute("INSERT INTO stockTBL (username, image, text) VALUES (?, ?, ?)", savedData[i].username, savedData[i].image, savedData[i].text);
 	}; 
 	
