@@ -1,0 +1,50 @@
+
+var Cloud = require('ti.cloud');
+Cloud.debug = true;
+var Cloud = require("ti.cloud");
+Cloud.debug = true;
+
+
+var login = function(){
+	
+	Cloud.Users.login({
+		login: 'admin',
+		password: '1234'
+	}, function(e){
+		if (e.success){
+			var user = e.users[0];
+			Ti.API.info('Success!\n' + 
+				'ACS User ID: ' + user.id + '\n' + 
+				'ACS App sessionId: ' + Cloud.sessionId + '\n' + 
+				'ACS App Username: ' + user.username);
+		} else {
+			alert((e.error && e.message) || JSON.stringify(e));
+		}
+	});
+}; // loginUser ends
+// now your app is ready to access ACS network and data services
+
+
+
+var save = function(dbCloud){
+	for(i=0, j=dbCloud.length; i<j; i++){
+		Cloud.Objects.create({
+			classname: "photos",
+			fields: {
+				username: dbCloud[i].username,
+				image: dbCloud[i].image,
+				text: dbCloud[i].text
+			}
+			
+		}, function(e) {
+			if(e.sucess){
+				console.log("SAVED DATA TO CLOUD");
+			}else{
+				console.log("DATA NOT SAVED");
+			}
+		});
+	}
+	
+};
+exports.login = login;
+exports.save = save;
