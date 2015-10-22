@@ -3005,6 +3005,11 @@
 			"mtime": "2015-10-22T19:24:03.000Z",
 			"size": 306760
 		},
+		"Classes/ApplicationRouting.m": {
+			"hash": "d558c927d98417e95bb968b55424f3ac",
+			"mtime": "2015-10-22T21:57:12.000Z",
+			"size": 189454
+		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
 			"mtime": "2015-09-29T17:15:50.000Z",
@@ -3021,27 +3026,29 @@
 			"size": 3126
 		}
 	},
-	"target": "simulator",
-	"deployType": "development",
+	"target": "device",
+	"deployType": "test",
 	"sdkVersion": "5.0.1.GA",
 	"iosSdkVersion": "9.0",
 	"deviceFamily": "universal",
 	"iosSdkPath": "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.0.1.GA/iphone",
 	"tiCoreHash": "5710cda7b179a3c8391cc94011e308de",
+	"developerName": "Jennifer McCarrick (5TMP78RMGA)",
 	"modulesHash": "7fb655db1d51a26b74a2778ab4a02a6b",
 	"modulesNativeHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"gitHash": "9640236",
+	"ppUuid": "cc03c378-3f35-4670-8261-72b5dce48222",
 	"forceCopy": false,
 	"forceCopyAll": false,
 	"name": "Week3YD",
 	"id": "com.fullsail.week3",
 	"analytics": true,
 	"publisher": "school",
-	"url": "http://",
+	"url": "http://yuli",
 	"version": "1.0",
-	"description": "",
+	"description": "undefined",
 	"copyright": "2015 by school",
 	"guid": "dcb6a8eb-0c02-464a-9666-e37183953d53",
-	"skipJSMinification": true,
-	"encryptJS": false
+	"skipJSMinification": false,
+	"encryptJS": true
 }

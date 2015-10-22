@@ -4,8 +4,8 @@
     <name>Week3YD</name>
     <version>1.0</version>
     <publisher>school</publisher>
-    <url>http://</url>
-    <description/>
+    <url>http://yuli</url>
+    <description>undefined</description>
     <copyright>2015 by school</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
@@ -75,7 +75,7 @@
     <property name="acs-password-production" type="string">ZGlV1v8bXpBUQFbAPd</property>
     <property name="appc-org-id" type="string">100048595</property>
     <property name="appc-creator-user-id" type="string">01eb5aca-9c2f-4719-8b42-f7b5468bc78c</property>
-	<ios>
+    <ios>
         <plist>
             <dict>
                 <key>NSLocationAlwaysUsageDescription</key>
@@ -85,6 +85,4 @@
             </dict>
         </plist>
     </ios>
-
-
 </ti:app>

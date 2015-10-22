@@ -26,13 +26,10 @@ var getData = function(){
 	          db.save(array); 
 	          
 	          var cloud = require("cloud");
-	          //cloud.save(array);
+	          cloud.save(array);
 	          
-	          
-	          
-	          
-	          // var ui = require("ui");
-			  // ui.buildUI(array);
+	          var ui = require("ui");
+			  ui.buildUI(array);
 	          
 			  
 	     }; 

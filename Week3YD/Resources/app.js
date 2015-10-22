@@ -4,6 +4,8 @@ var cloud = require("cloud");
 
 if(Ti.Network.online){
 	Ti.API.info("Online");
+	var api = require("api");
+	api.getData();
 	var geo = require("geo");
 	geo.getGeo();
 }else{
