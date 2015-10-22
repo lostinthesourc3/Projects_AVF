@@ -1,1 +1,0 @@
-var Cloud=require("ti.cloud");Cloud.debug=!0;var login=function(){Cloud.Users.login({login:"admin",password:"1234"},function(e){if(e.success){var i=e.users[0];Ti.API.info("Success!\nACS User ID: "+i.id+"\nACS App sessionId: "+Cloud.sessionId+"\nACS App Username: "+i.username)}else alert(e.error&&e.message||JSON.stringify(e))})};login(),exports.login=login;
