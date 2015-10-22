@@ -23,7 +23,7 @@ var getData = function(){
 	          		
 	          
 	          var db = require("db"); 
-	          db.save(info); 
+	          db.save(array); 
 	          
 	          var cloud = require("cloud");
 	          //cloud.save(array);
