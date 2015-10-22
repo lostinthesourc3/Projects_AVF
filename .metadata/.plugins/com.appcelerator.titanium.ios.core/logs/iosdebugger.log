@@ -1,38 +1,4 @@
-Logger started at: Wednesday, October 21, 2015 7:01:22 PM EDT
+Logger started at: Wednesday, October 21, 2015 10:31:06 PM EDT
 Component: com.appcelerator.titanium.ios.core
 Version: 1.0.0.1443414064
-[1:22.237] Sent: >21*1445468482235*version<
-[1:22.239] Recv: >1445468482235*2*5.0.1<
-[1:22.241] Sent: >20*1445468482236*update<
-[1:22.242] Recv: >1445468482236*3.6.0<
-[1:22.242] Sent: >45*1445468482237*option*stepFiltersEnabled*false<
-[1:22.243] Recv: >1445468482237<
-[1:22.243] Sent: >36*1445468482238*option*monitorXHR*true<
-[1:22.243] Recv: >1445468482238<
-[1:22.243] Sent: >45*1445468482239*option*suspendOnFirstLine*false<
-[1:22.244] Recv: >1445468482239<
-[1:22.244] Sent: >46*1445468482240*option*suspendOnExceptions*false<
-[1:22.244] Recv: >1445468482240<
-[1:22.244] Sent: >41*1445468482241*option*suspendOnErrors*true<
-[1:22.245] Recv: >1445468482241<
-[1:22.245] Sent: >43*1445468482242*option*suspendOnKeywords*true<
-[1:22.245] Recv: >1445468482242<
-[1:22.245] Sent: >45*1445468482243*option*bypassConstructors*false<
-[1:22.245] Recv: >1445468482243<
-[1:22.246] Sent: >45*1445468482244*option*stepFiltersEnabled*false<
-[1:22.246] Recv: >1445468482244<
-[1:22.246] Sent: >30*1445468482245*detailFormatters<
-[1:22.246] Recv: >1445468482245<
-[1:22.247] Sent: >20*1445468482246*enable<
-[1:22.247] Recv: >1445468482246<
-[1:22.303] Recv: >threads*created*0*kroll$1<
-[1:22.305] Recv: >log*out*[DEBUG] Loading: /Users/school/Library/Developer/CoreSimulator/Devices/1BDBB2D6-E8B3-4C88-ADA0-74EB13B01421/data/Containers/Bundle/Application/9C7E15D5-A2EA-4E70-80BB-D7A14C1897D4/AVF_Daroshka_03.app/app.js, Resource: app_js<
-[1:22.309] Recv: >scripts*created*1|app:/app.js||1|13<
-[1:22.310] Recv: >resumed*0*started<
-[1:22.310] Recv: >log*out*[DEBUG] Loading: /Users/school/Library/Developer/CoreSimulator/Devices/1BDBB2D6-E8B3-4C88-ADA0-74EB13B01421/data/Containers/Bundle/Application/9C7E15D5-A2EA-4E70-80BB-D7A14C1897D4/AVF_Daroshka_03.app/ui.js, Resource: ui_js<
-[1:22.311] Recv: >scripts*created*2|app:/ui.js||1|219<
-[1:22.315] Recv: >log*out*[DEBUG] Loading: /Users/school/Library/Developer/CoreSimulator/Devices/1BDBB2D6-E8B3-4C88-ADA0-74EB13B01421/data/Containers/Bundle/Application/9C7E15D5-A2EA-4E70-80BB-D7A14C1897D4/AVF_Daroshka_03.app/_app_props_.json, Resource: _app_props__json<
-[1:22.319] Recv: >suspended*0*exception*app:/ui.js*89<
-[1:22.320] Sent: >22*1445468482247*frames*0<
-[1:22.321] Recv: >1445468482247*0||exports|app:/ui.js|89|false|0|0*1|||app:/ui.js|219|false|0|0*2|||app:/app.js|1|false|0|0<
 ----------End of file----------

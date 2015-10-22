@@ -11,7 +11,7 @@ var read = function(){
 				image: dbResult.fieldByName("image"),
 				text: dbResult.fieldByName("text"),
 			};
-		info.push(localData);	
+		//info.push(localData);	
 		dbResult.next();
 	}
 
@@ -36,4 +36,4 @@ var save = function(savedData){
 };
 
 exports.save = save;
-exports.read = read;
+//exports.read = read;

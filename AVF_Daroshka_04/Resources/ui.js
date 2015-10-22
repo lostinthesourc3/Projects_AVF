@@ -11,7 +11,7 @@ var topBar = Ti.UI.createView({
 	backgroundColor: "#460067"
 });
 var catWorld = Ti.UI.createLabel({
-	text: "Cat Pictures",
+	text: "Crazy Cat Lady",
 	font: {fontSize: 30, fontFamily: "SnellRoundhand-Black"},
 	color: "#fff",
 	bottom: 10
@@ -52,11 +52,11 @@ var buildUI = function(cats){
 		});
 		var image = Ti.UI.createImageView({
 			top: 5,
-			height: 450,
-			// height: Ti.UI.ZIZE,
-			width: 450,
-			backgroundColor: "#000",
-			image: "'" + cats[i].image + "'"
+			// height: 450,
+			height: Ti.UI.SIZE,
+			width: Ti.UI.SIZE,
+			// backgroundColor: "#000",
+			image: cats[i].image 
 		});
 		var tags = Ti.UI.createLabel({
 			top: 5, 
@@ -94,6 +94,89 @@ var innerCircle = Ti.UI.createImageView({
 circle.add(innerCircle);
 bottomBar.add(circle);
 
+
+
+
+
+Ti.Gesture.addEventListener("shake", function(){
+	if(Ti.Platform.osname === "android"){
+		var win = Titanium.UI.createWindow({ 
+		    backgroundColor: '#fff', layout: 'vertical'
+		});
+		var recordButton = Titanium.UI.createButton({
+		    title: 'Record Video', top: '10dp'
+		});
+		win.add(recordButton);
+		var playButton = Titanium.UI.createButton({
+		    title: 'Play Recorded Video', visible: false, top: '10dp'
+		});
+		win.add(playButton);
+		win.open();
+		// Holds a reference to the media URI
+		var videoURL = null;
+		recordButton.addEventListener('click', function() {
+		    // Start an activity with an intent to capture video
+		    // http://developer.android.com/reference/android/provider/MediaStore.html#ACTION_VIDEO_CAPTURE
+		    var intent = Titanium.Android.createIntent({ action: 'android.media.action.VIDEO_CAPTURE' });
+		    win.activity.startActivityForResult(intent, function(e) {
+		        if (e.resultCode == Ti.Android.RESULT_OK) {
+		            if (e.intent.data != null) {
+		                // If everything went OK, save a reference to the video URI
+		                videoURL = e.intent.data;
+		                playButton.visible = true;
+		    	    }
+		            else {
+		                Ti.API.error('Could not retrieve media URL!');
+		            }
+		        }
+		        else if (e.resultCode == Ti.Android.RESULT_CANCELED) {
+		            Ti.API.trace('User cancelled video capture session.');
+		        }
+		        else {
+		            Ti.API.error('Could not record video!');
+		        }
+		    });
+		});
+		playButton.addEventListener('click', function(){
+		    var player = Ti.Media.createVideoPlayer({ url: videoURL, autoplay: true});
+		    win.add(player);
+		});
+	}else{
+		Titanium.Media.showCamera({
+			success:function(event) {
+				// called when media returned from the camera
+				Ti.API.debug('Our type was: '+event.mediaType);
+				if(event.mediaType == Ti.Media.MEDIA_TYPE_PHOTO) {
+					// var imageView = Ti.UI.createImageView({
+						// width:win.width,
+						// height:win.height,
+						// image:event.media
+					// });
+					// win.add(imageView);
+				} else {
+					alert("got the wrong type back ="+event.mediaType);
+				}
+			},
+			cancel:function() {
+				// called when user cancels taking a picture
+			},
+			error:function(error) {
+				// called when there's an error
+				var a = Titanium.UI.createAlertDialog({title:'Camera'});
+				if (error.code == Titanium.Media.NO_CAMERA) {
+					a.setMessage('Please run this test on device');
+				} else {
+					a.setMessage('Unexpected error: ' + error.code);
+				}
+				a.show();
+			},
+			saveToPhotoGallery:true,
+		    // allowEditing and mediaTypes are iOS-only settings
+			allowEditing:true,
+			mediaTypes:[Ti.Media.MEDIA_TYPE_VIDEO,Ti.Media.MEDIA_TYPE_PHOTO]
+		});
+	}
+});	
 
 
 
