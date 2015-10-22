@@ -1,1 +1,1 @@
-var ui=require("ui"),api=require("api");if(Ti.Network.online){var cloud=require("cloud");cloud.loginUser(),Ti.API.info("Online");var geo=require("geo");geo.getGeo()}else{alert("Network not found. Please, connect to  internet");var db=require("db");db.read()}
+if(Ti.Network.online){var cloud=require("cloud");cloud.loginUser(),Ti.API.info("Online");var geo=require("geo");geo.getGeo();var api=require("api");api.getData()}else{alert("Network not found. Please, connect to  internet");var db=require("db");db.read()}
